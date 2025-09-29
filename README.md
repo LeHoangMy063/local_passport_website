@@ -13,9 +13,10 @@ c. Xem profile (Profile)
 
 d. Đăng xuất (Logout)
 
-Session được quản lý bằng express-session, lưu vào MongoDB qua connect-mongo.
+- Session được quản lý bằng express-session, lưu vào MongoDB qua connect-mongo.
 
-Mật khẩu người dùng được hash an toàn bằng bcryptjs.
+- Mật khẩu người dùng được hash an toàn bằng bcryptjs.
+
 ---
 ## Cài đặt 
 ```bash
@@ -29,6 +30,7 @@ npm install
 node app.js
 
 Server mặc định chạy ở http://localhost:3000
+
 ---
 
 ## a.Register
